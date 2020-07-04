@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9445" started-at="2020-07-04T07:52:12Z" finished-at="2020-07-04T07:52:21Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestRunner@feb3fa]" name="feature" class="com.qa.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="9445" started-at="2020-07-04T07:52:12Z" finished-at="2020-07-04T07:52:21Z">
+      <class name="com.qa.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.TestRunner@feb3fa]" name="setUpClass" is-config="true" duration-ms="430" started-at="2020-07-04T13:22:12Z" finished-at="2020-07-04T13:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestRunner@feb3fa]" name="feature" duration-ms="8893" started-at="2020-07-04T13:22:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-04T13:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Test Execution]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.TestRunner@feb3fa]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2020-07-04T13:22:21Z" finished-at="2020-07-04T13:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
